@@ -121,3 +121,22 @@
    margin-top: -70px;
    position: absolute;
     }
+    .select4{
+        background-color: transparent;
+    border: none;
+    }
+    #klaybbj{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    #klaybbj svg:hover{
+        fill: aqua;
+    }
+    #klaybbj img:hover{
+        filter: grayscale(0);
+    }
+    #klaybbj img{
+        filter: grayscale(100%);
+    }
+
